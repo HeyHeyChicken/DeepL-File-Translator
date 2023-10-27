@@ -50,7 +50,7 @@ npm start
 
 ## ⚠️ Be carefull about the proxy
 
-To avoid CORS problems, I developped a proxy in the `src\assets\server\index.php` file.
+To avoid CORS problems, I developped a proxy in the `src\assets\server\index.php` file.<br/>
 This tool will not work on your desktop, if it's not processing PHP files.
 
 ## 💼 How to
