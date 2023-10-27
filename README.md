@@ -7,7 +7,7 @@
 
 </div>
 <div align="center">
-<img src="https://github.com/HeyHeyChicken/NOVA/blob/master/resources/screenshot.jpg">
+<img src="https://raw.githubusercontent.com/HeyHeyChicken/DeepL-File-Translator/main/resources/screen.jpg">
 </div>
 
 <br>
