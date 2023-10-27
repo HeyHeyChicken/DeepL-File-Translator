@@ -48,6 +48,8 @@ npm start
 ```
 2) Go to [http://localhost:4200/](http://localhost:4200/)
 
+## ⚠️ Be carefull about the proxy
+
 To avoid CORS problems, I developped a proxy in the `src\assets\server\index.php` file.
 This tool will not work on your desktop, if it's not processing PHP files.
 
