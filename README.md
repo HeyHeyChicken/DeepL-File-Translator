@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/HeyHeyChicken/DeepL-File-Translator/main/src/assets/img/logo.png" alt="DeepL File Translator" width="200">
 
-**DeepL File Translator** is a web HMI to translate files using the Deepl - [Translate document API](https://www.deepl.com/docs-api/documents).<br>
+**DeepL File Translator** is a web HMI to translate files using the [Deepl - Translate document API](https://www.deepl.com/docs-api/documents).<br>
 <br>
 
 </div>
@@ -14,7 +14,7 @@
 
 ## 👋 Introduction
 
-**DeepL File Translator** is a web HMI to translate files using the Deepl - [Translate document API](https://www.deepl.com/docs-api/documents).<br/>
+**DeepL File Translator** is a web HMI to translate files using the [Deepl - Translate document API](https://www.deepl.com/docs-api/documents).<br/>
 You can use it with a free or paid API key.
 
 ## ☁️ Live demo
