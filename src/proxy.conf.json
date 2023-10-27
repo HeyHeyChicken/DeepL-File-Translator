@@ -1,0 +1,18 @@
+{
+    "/deepl": {
+      "target": "https://api.deepl.com",
+      "secure": false,
+      "pathRewrite": {
+        "^/deepl": ""
+      },
+      "changeOrigin": true
+    },
+    "/azure": {
+      "target": "https://snastoragehhc.blob.core.windows.net",
+      "secure": false,
+      "pathRewrite": {
+        "^/azure": ""
+      },
+      "changeOrigin": true
+    }
+  }

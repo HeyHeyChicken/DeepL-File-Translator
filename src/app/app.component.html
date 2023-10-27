@@ -1,0 +1,49 @@
+<input #myInput type="file" (change)="onFileChange($event)" multiple id="{{ inputID }}">
+
+<div class="container">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col col-6">
+      <div class="widget">
+        <h1>
+          <img src="/assets/img/logo.png" />
+          DeepL File Translator</h1>
+        <div class="input">
+          <div>API key</div>
+          <input type="text" [(ngModel)]="deeplService.api_key" (change)="apiKeyChanged()" />
+        </div>
+        <ng-container *ngIf="deeplService.api_key">
+          <div id="dropper" (click)="dropperClicked()">
+            <div class="icons">
+              <i class="fa-solid fa-file-contract"></i>
+              <i class="fa-solid fa-file-invoice"></i>
+              <i class="fa-solid fa-file"></i>
+            </div>
+            <p>Click here to translate your file</p>
+            <span>Supports: {{ compatibility }}.</span>
+          </div>
+          <div class="files">
+            <div
+              *ngFor="let file of files"
+              class="file"
+              [class.error]="file.error"
+              [class.success]="file.success"
+              (click)="onFileClicked(file)"
+            >
+              <div class="background" [style.width.%]="file.percent"></div>
+              <p><b>{{ file.file.name }}</b><span *ngIf="file.status"> ({{ file.status }})</span></p>
+              <span *ngIf="file.message">
+                {{ file.message }}
+              </span>
+              <div class="progress">
+                <div [style.width.%]="file.percent"></div>
+              </div>
+              <i *ngIf="file.success" class="fa-solid fa-file-arrow-down"></i>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
