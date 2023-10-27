@@ -11,7 +11,7 @@ export class DeeplService {
     //#region Attributes
 
     private _url: string = "/assets/server/";
-    public api_key: string = ""; //"769b023e-fc9b-ddea-3834-32dab1bc5027:fx"; `${environment.deepl.api_key}`;
+    public api_key: string = "";
     public compatibility: string[] = [
         "docx", // Microsoft Word Document
         "pptx", // Microsoft PowerPoint Document
