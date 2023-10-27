@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/HeyHeyChicken/NOVA/blob/master/resources/github-logo.svg" alt="DeepL File Translator" width="300">
+<img src="https://raw.githubusercontent.com/HeyHeyChicken/DeepL-File-Translator/main/src/assets/img/logo.png" alt="DeepL File Translator" width="300">
 
 **DeepL File Translator** is a web HMI to translate files using the Deepl - [Translate document API](https://www.deepl.com/docs-api/documents).<br>
 <br>
@@ -46,6 +46,7 @@ npm install
 ```
 npm start
 ```
+2) Go to [http://localhost:4200/](http://localhost:4200/)
 
 ## 💼 How to
 
