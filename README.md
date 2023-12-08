@@ -7,7 +7,7 @@
 
 </div>
 <div align="center">
-<img src="https://raw.githubusercontent.com/HeyHeyChicken/DeepL-File-Translator/main/resources/screen.jpg">
+<img src="https://raw.githubusercontent.com/HeyHeyChicken/DeepL-File-Translator/main/.github/screen.jpg">
 </div>
 
 <br>
@@ -23,8 +23,8 @@ You can try this tool by clicking here: [https://deepl.cuffel.fr/](https://deepl
 
 ## 🔧 Prerequisites
 
-[<img src="https://raw.githubusercontent.com/HeyHeyChicken/NOVA/master/resources/nodeJSLogo.png" width="18" /> Node.js](https://nodejs.org/)<br/>
-[<img src="https://raw.githubusercontent.com/HeyHeyChicken/NOVA/master/resources/npmLogo.png" width="18" /> npm](https://npmjs.com/)<br/>
+[<img src="https://raw.githubusercontent.com/HeyHeyChicken/DeepL-File-Translator/main/.github/nodeJSLogo.png" width="18" /> Node.js](https://nodejs.org/)<br/>
+[<img src="https://raw.githubusercontent.com/HeyHeyChicken/DeepL-File-Translator/main/.github/npmLogo.png" width="18" /> npm](https://npmjs.com/)<br/>
 
 ## ⬇️ Installation
 
